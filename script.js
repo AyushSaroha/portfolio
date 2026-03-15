@@ -80,7 +80,6 @@ window.onscroll = () => {
 // Typed.js Animation
 const typed = new Typed('.multiple-text', {
     strings: ['Data Analyst.', 'CS Engineering Student.', 'Problem Solver.'],
-    strings: ['Software Developer.', 'CS Engineering Student.', 'Problem Solver.'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
