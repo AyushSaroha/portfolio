@@ -41,7 +41,8 @@
 }
 
 html {
-    font-size: 62.5%; /* 1rem = 10px */
+    font-size: 62.5%;
+    /* 1rem = 10px */
     overflow-x: hidden;
 }
 
@@ -53,7 +54,12 @@ body {
     line-height: 1.6;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Outfit', sans-serif;
 }
 
@@ -340,13 +346,22 @@ span.multiple-text {
     position: relative;
     z-index: 10;
     animation: float 4s ease-in-out infinite;
+
     object-fit: cover;
 }
 
 @keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-20px); }
-    100% { transform: translateY(0px); }
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 .geometric-shape {
@@ -384,9 +399,20 @@ span.multiple-text {
 }
 
 @keyframes pulse {
-    0% { transform: scale(1) translate(0, 0); opacity: 0.4; }
-    50% { transform: scale(1.1) translate(20px, -20px); opacity: 0.6; }
-    100% { transform: scale(0.9) translate(-20px, 20px); opacity: 0.4; }
+    0% {
+        transform: scale(1) translate(0, 0);
+        opacity: 0.4;
+    }
+
+    50% {
+        transform: scale(1.1) translate(20px, -20px);
+        opacity: 0.6;
+    }
+
+    100% {
+        transform: scale(0.9) translate(-20px, 20px);
+        opacity: 0.4;
+    }
 }
 
 /* About Section */
@@ -890,30 +916,38 @@ span.multiple-text {
     .header {
         padding: 2rem 5%;
     }
+
     .header.sticky {
         padding: 1.5rem 5%;
     }
+
     section {
         padding: 10rem 5% 2rem;
     }
+
     .footer {
         padding: 3rem 5%;
     }
+
     .contact-container {
         grid-template-columns: 1fr;
     }
+
     .home {
         flex-direction: column-reverse;
         text-align: center;
         gap: 5rem;
     }
+
     .social-media {
         justify-content: center;
         display: flex;
     }
+
     .home-content p {
         margin: 0 auto 3rem;
     }
+
     .home-img {
         margin-top: 5rem;
     }
@@ -923,6 +957,7 @@ span.multiple-text {
     #menu-icon {
         display: block;
     }
+
     .navbar {
         position: absolute;
         top: 100%;
@@ -937,14 +972,17 @@ span.multiple-text {
         align-items: flex-start;
         display: none;
     }
+
     .navbar.active {
         display: flex;
     }
+
     .navbar a {
         display: block;
         font-size: 2rem;
         margin: 1.5rem 0;
     }
+
     .header-socials {
         border-left: none;
         padding-left: 0;
@@ -954,13 +992,16 @@ span.multiple-text {
         border-top: 1px solid var(--border-color);
         width: 100%;
     }
+
     #theme-toggle {
         margin-left: 0;
         margin-top: 1.5rem;
     }
+
     .home-content h1 {
         font-size: 4.5rem;
     }
+
     .combo-container {
         grid-template-columns: 1fr;
     }
@@ -970,9 +1011,11 @@ span.multiple-text {
     html {
         font-size: 50%;
     }
+
     .contact form .input-box {
         flex-direction: column;
     }
+
     .profile-placeholder {
         width: 250px;
         height: 250px;
