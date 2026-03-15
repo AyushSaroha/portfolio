@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Saroha | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="#home" class="logo">Ayush.<span>Dev</span></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#training">Training</a>
+            <a href="#combo">Certifications & Achievements</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+
+            <div class="header-socials bg-socials">
+                <a href="https://github.com/AyushSaroha" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/ayush-saroha" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+                <i class='bx bx-sun'></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Ayush Saroha</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Aspiring Data Analyst and Computer Science Engineering student passionate about data-driven systems,
+                finding actionable insights, and solving real-world problems using programming, algorithms, and modern
+                analytics tools.</p>
+            <div class="social-media">
+                <a href="https://github.com/AyushSaroha" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/ayush-saroha" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="mailto:ayushsaroha999@gmail.com"><i class='bx bxs-envelope'></i></a>
+                <a href="resume.pdf" target="_blank" title="Download Resume"><i class='bx bxs-file-pdf'></i></a>
+            </div>
+            <a href="#contact" class="btn">Let's Talk</a>
+        </div>
+        <div class="home-img">
+            <!-- Dynamic geometric shapes for aesthetic -->
+            <div class="geometric-shape shape-1"></div>
+            <div class="geometric-shape shape-2"></div>
+            <div class="geometric-shape shape-3"></div>
+            <img src="profile.jpeg" alt="Ayush Saroha" class="profile-placeholder">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="heading-container">
+            <h2 class="heading">About <span>Me</span></h2>
+        </div>
+        <div class="about-content">
+            <p>I am a Computer Science Engineering student highly passionate about data analysis, predictive modeling,
+                and data-driven problem solving. With a strong foundation in modern analytics practices, I am constantly
+                exploring new tools to extract impactful insights. My academic journey at Lovely Professional University
+                has deepened my interest in data science, finding hidden patterns, and building predictive models. I
+                thrive in challenging environments that require critical thinking and a proactive approach, and I am
+                driven by the desire to create efficient, innovative solutions to complex real-world problems.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-code-curly'></i>
+                <h3>Languages</h3>
+                <div class="skills-tags">
+                    <span>C++</span>
+                    <span>Java</span>
+                    <span>C</span>
+                    <span>Python</span>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bx-layer'></i>
+                <h3>Frameworks & Paradigms</h3>
+                <div class="skills-tags">
+                    <span>OOP Design</span>
+                    <span>Agile/Scrum</span>
+                    <span>Data Structures</span>
+                    <span>Algorithms</span>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bx-wrench'></i>
+                <h3>Tools & Platforms</h3>
+                <div class="skills-tags">
+                    <span>MySQL</span>
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>VS Code</span>
+                    <span>JupyterLab</span>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bx-brain'></i>
+                <h3>Soft Skills</h3>
+                <div class="skills-tags">
+                    <span>Decision Making</span>
+                    <span>Time Management</span>
+                    <span>Critical Thinking</span>
+                    <span>Adaptability</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Netflix Watch History System</h3>
+                        <span class="project-duration">Jan 2025 – Feb 2025</span>
+                    </div>
+                    <p>Built a system that mimics real-world streaming platforms like Netflix. Implemented stack-based
+                        mechanisms to track and reverse user actions, improving usability and application control. Used
+                        file serialization to preserve watch history across sessions.</p>
+                    <div class="project-tech">
+                        <span>C++</span>
+                        <span>OOP</span>
+                        <span>Stack</span>
+                        <span>MySQL</span>
+                        <span>File I/O</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Predictive Analytics for Business Growth</h3>
+                        <span class="project-duration">Sep 2024 – Oct 2024</span>
+                    </div>
+                    <p>Performed data preprocessing including handling missing values and outliers. Built regression and
+                        classification models using Scikit-learn to predict sales and customer churn. Visualized
+                        insights using Seaborn and Matplotlib.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>MySQL</span>
+                        <span>Data Visualization</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Data-Driven Sales Insights Dashboard</h3>
+                        <span class="project-duration">Aug 2024 – Sep 2024</span>
+                    </div>
+                    <p>Developed an interactive Excel dashboard that converts raw business data into clear insights.
+                        Enabled stakeholders to track KPIs such as revenue, profit, sales trends, and product
+                        performance.</p>
+                    <div class="project-tech">
+                        <span>Excel</span>
+                        <span>Pivot Tables</span>
+                        <span>Data Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training Section -->
+    <section class="training" id="training">
+        <h2 class="heading">Summer <span>Training</span></h2>
+
+        <div class="timeline-container">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Code Quest: DSA Summer Bootcamp</h3>
+                    <span class="timeline-date">June 2025 – July 2025</span>
+                    <h4 class="timeline-subtitle">From Basics to Brilliance</h4>
+                    <p>Learned core data structures and algorithms from basics to advanced problem solving. Practiced
+                        recursion, dynamic programming, and time complexity analysis. Prepared for technical interviews
+                        with coding practice and mock tests.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Combiner Section for Certs & Achievements -->
+    <section class="combo-section" id="combo">
+        <div class="combo-container">
+            <!-- Certifications -->
+            <div class="certifications" id="certifications">
+                <h2 class="heading">Licenses & <span>Certifications</span></h2>
+                <div class="list-cards">
+                    <div class="list-card">
+                        <i class='bx bx-certification'></i>
+                        <div class="list-info">
+                            <h3>Java Programming</h3>
+                            <p>NeoColab | Jan 2025 – May 2025</p>
+                        </div>
+                    </div>
+                    <div class="list-card">
+                        <i class='bx bx-certification'></i>
+                        <div class="list-info">
+                            <h3>Data Structures and Algorithms</h3>
+                            <p>NeoColab | Aug 2024 – Dec 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Achievements -->
+            <div class="achievements" id="achievements">
+                <h2 class="heading">Key <span>Achievements</span></h2>
+                <div class="list-cards">
+                    <div class="list-card">
+                        <i class='bx bx-trophy'></i>
+                        <div class="list-info">
+                            <h3>50-Day LeetCode Streak</h3>
+                            <p>Successfully solved 100+ DSA problems, improving problem-solving speed and algorithmic
+                                thinking.</p>
+                        </div>
+                    </div>
+                    <div class="list-card">
+                        <i class='bx bx-medal'></i>
+                        <div class="list-info">
+                            <h3>Hackathon Finalist</h3>
+                            <p>Participated in 5+ Hackathons globally and achieved finalist position twice, building
+                                innovative prototypes under pressure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+
+        <div class="timeline-container">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Lovely Professional University</h3>
+                    <span class="timeline-date">Aug 2023 – Present | Phagwara, Punjab</span>
+                    <h4 class="timeline-subtitle">Bachelor of Technology – Computer Science Engineering</h4>
+                    <p>CGPA: 6.7. Focused on fundamental and advanced software engineering concepts, database systems,
+                        and algorithms.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Minerva Public School</h3>
+                    <span class="timeline-date">Apr 2021 – Mar 2022 | Baghpat, Uttar Pradesh</span>
+                    <h4 class="timeline-subtitle">Intermediate (12th Grade)</h4>
+                    <p>Achieved 78%. Built strong foundational knowledge in Mathematics and Sciences.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Minerva Public School</h3>
+                    <span class="timeline-date">Apr 2019 – Mar 2020 | Baghpat, Uttar Pradesh</span>
+                    <h4 class="timeline-subtitle">Matriculation (10th Grade)</h4>
+                    <p>Achieved 72%.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's work together</h3>
+                <p>Feel free to reach out for collaborations, opportunities, or just to say hi!</p>
+
+                <div class="info-item">
+                    <i class='bx bx-envelope'></i>
+                    <span>ayushsaroha999@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class='bx bxs-file-pdf'></i>
+                    <a href="resume.pdf" target="_blank" style="color: var(--text-color); font-size: 1.6rem;">Download
+                        Resume</a>
+                </div>
+                <div class="info-item">
+                    <i class='bx bx-phone'></i>
+                    <span>+91-8791421895</span>
+                </div>
+                <div class="info-item">
+                    <i class='bx bxl-linkedin'></i>
+                    <span>linkedin.com/in/ayush-saroha</span>
+                </div>
+                <div class="info-item">
+                    <i class='bx bxl-github'></i>
+                    <span>github.com/AyushSaroha</span>
+                </div>
+            </div>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2026 Ayush Saroha | Built with passion for data analysis</p>
+        </div>
+        <div class="footer-socials">
+            <a href="https://github.com/AyushSaroha" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/ayush-saroha" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- Typed.js for typing animation -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
