@@ -113,3 +113,10 @@ const revealOnScroll = new IntersectionObserver(function (entries, observer) {
 revealElements.forEach(el => {
     revealOnScroll.observe(el);
 });
+
+
+
+let netflixProject = document.getElementById("projectNetflix");
+netflixProject.addEventListener("click", ()=>{
+
+})
